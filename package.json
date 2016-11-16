@@ -1,0 +1,34 @@
+{
+  "name": "geodash-flatten",
+  "version": "0.0.1",
+  "description": "The `flatten` function for [GeoDash](http://geodash.io) that can be used in build or runtime contexts.",
+  "keywords": [
+    "map",
+    "mapping",
+    "gis",
+    "geodash"
+  ],
+  "homepage": "http://geodash.io/",
+  "scripts": {
+    "build:docs": "mkdir docs; gulp docs",
+    "build": "npm run build:docs",
+    "jshint": "jshint index.js",
+    "tests": "npm run jshint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geodashio/geodash-flatten"
+  },
+  "license": "BSD-3-Clause",
+  "author": "GeoDash Developers",
+  "bugs": {
+    "url": "https://github.com/geodashio/geodash-flatten/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-jsdoc3": "^0.3.0",
+    "jshint": "*",
+    "uglify-js": "*"
+  }
+}
